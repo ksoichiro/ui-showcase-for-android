@@ -18,6 +18,14 @@
         </activity>
         <activity android:name=".AboutActivity" />
         <activity
+            android:name=".CoachMarkActivity"
+            android:label="@string/activity_coach_mark">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.github.ksoichiro.uishowcase" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".EmptyDataActivity"
             android:label="@string/activity_empty_data">
             <intent-filter>
