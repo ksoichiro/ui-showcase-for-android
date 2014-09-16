@@ -22,12 +22,8 @@ public class AboutActivity extends ActionBarActivity {
 
         setContentView(R.layout.activity_about);
 
-        if (Build.VERSION_CODES.HONEYCOMB <= Build.VERSION.SDK_INT) {
-            getActionBar().setDisplayHomeAsUpEnabled(true);
-            if (Build.VERSION_CODES.ICE_CREAM_SANDWICH <= Build.VERSION.SDK_INT) {
-                getActionBar().setHomeButtonEnabled(true);
-            }
-        }
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setHomeButtonEnabled(true);
 
         ((TextView) findViewById(R.id.version_name)).setText(getVersionName());
         ((TextView) findViewById(R.id.copyright)).setText(Html
@@ -36,8 +32,7 @@ public class AboutActivity extends ActionBarActivity {
 
     @Override
     public boolean onOptionsItemSelected(final MenuItem menu) {
-        int id = menu.getItemId();
-        if (id == android.R.id.home) {
+        if (menu.getItemId() == android.R.id.home) {
             finish();
             return true;
         }
