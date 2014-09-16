@@ -2,6 +2,7 @@
 
     <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
         <item name="actionBarStyle">@style/AppActionBarStyle</item>
+        <item name="actionOverflowButtonStyle">@style/AppActionOverflowButtonStyle</item>
         <item name="homeAsUpIndicator">@drawable/ic_ab_back</item>
     </style>
 
@@ -20,6 +21,10 @@
 
     <style name="AppActionBarTitleTextStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
         <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="AppActionOverflowButtonStyle" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_action_overflow</item>
     </style>
 
     <style name="AppButtonStyle" parent="android:Widget.Button">
