@@ -1,0 +1,7 @@
+<resources>
+
+    <color name="background">#ffffffff</color>
+    <color name="text_list">#ff212121</color>
+    <color name="edit_text_highlight">#ffb2ebf2</color>
+
+</resources>
