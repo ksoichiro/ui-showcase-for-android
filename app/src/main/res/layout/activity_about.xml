@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:contentDescription="@string/desc_about_app"
-        android:src="@drawable/ic_launcher" />
+        android:src="@drawable/ic_logo_big" />
 
     <LinearLayout
         android:layout_width="match_parent"
