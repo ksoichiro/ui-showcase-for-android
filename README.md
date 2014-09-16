@@ -1,5 +1,4 @@
-ui-showcase-for-android
-=======================
+![](app/app.png "ui-showcase-for-android")
 
 UI pattern implementations for Android apps.
 
