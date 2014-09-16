@@ -2,6 +2,7 @@
 
     <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
         <item name="actionBarStyle">@style/AppActionBarStyle</item>
+        <item name="homeAsUpIndicator">@drawable/ic_ab_back</item>
     </style>
 
     <!-- Application theme. -->

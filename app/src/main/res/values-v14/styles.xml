@@ -3,6 +3,7 @@
     <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
         <!-- API 14 theme customizations can go here. -->
         <item name="android:textColorHighlight">@color/edit_text_highlight</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_ab_back</item>
     </style>
 
     <style name="AppActionBarStyle" parent="android:Widget.Holo.ActionBar.Solid">
