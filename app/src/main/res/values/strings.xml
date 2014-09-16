@@ -3,6 +3,7 @@
 
     <string name="app_name">UI Showcase for Android</string>
 
+    <string name="activity_main">UI Showcase</string>
     <string name="activity_coach_mark">Coach mark</string>
     <string name="activity_empty_data">Empty data</string>
 
